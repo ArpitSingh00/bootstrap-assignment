@@ -1,0 +1,169 @@
+body{
+    background-image: url(img/backimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+    margin:0;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+.flex-md-row {
+    flex-direction: row;
+}
+ 
+.justify-content-around {
+    justify-content: space-around;
+}
+
+
+.card-body{
+    color:darkolivegreen;
+}  
+
+
+.dropdown-item:focus{
+    background-color: rgb(226, 43, 43);
+    color:black;
+}
+.dropdown-item:hover{
+    background: rgba(179, 12, 229, 0.1);
+}
+
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color: palegreen;
+}
+.nav-link:focus{
+    color:red;
+}
+
+
+.home-custom-card-styles .card-body:hover span{
+    scale:1.4;
+    rotate: 360deg;
+    left:2.5rem;
+    top:16rem;
+    font-size: 0.8rem;
+    color:white;
+}
+
+.home-custom-card-styles  h5{
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-shadow: 2px 1px black;
+    letter-spacing: 3px;
+}
+
+.home-custom-card-styles p {
+    font-size: 1.3rem;
+}
+.home-custom-card-styles img{
+    width: 20rem;
+    height:18rem;
+}
+
+.home-custom-card-styles{
+    width: 22rem;
+    min-width: 22rem;
+    font-family: 'Boska',sans-serif;
+    padding:1rem 1rem;
+    overflow: auto;
+    transition: 0.3s all linear;
+    border-radius: 40px;
+    overflow-x: hidden;
+}
+
+.btn.btn-primary{
+    background-color: rgb(82, 197, 236);
+    font-size: 1.7rem;
+}
+.btn.btn-primary:hover{
+    color:rgb(82, 197, 236);
+    background: white;
+}
+
+.artist-custom-card-styles img{
+    
+    width:30rem;
+    height: 20rem;
+    object-fit: cover;
+    margin:0 auto;
+    transition: 0.3s all linear;
+   
+}
+
+.profile-column{
+    border-radius: 40px;
+}
+
+.artist-custom-card-styles{
+    overflow: auto;
+}    
+
+.artist-custom-card-styles{
+    overflow: auto;
+}    
+.card-img{
+    width: 100%;
+    height: 200%;
+    position:static;
+}
+
+
+/*contact us section*/
+
+#contactus{
+    padding: 20px 10px 20px 0;
+}
+#Contact{
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+
+.Contact_col form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 525px;
+}
+.Contact_col form input{
+    width: 50%;
+    height: 50pt;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.btn.btn-lg.contact-submit{
+    border:1px solid black;
+    margin:auto;
+    margin-top: 2rem;
+    background: white;
+    transition: 0.3s all linear;
+    outline: none;
+    font-size: 1.5rem;
+    border: none;
+    font-weight: bold;
+    
+}
+.btn.btn-lg.contact-submit:hover{
+    color:white;
+    background: blueviolet; 
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
